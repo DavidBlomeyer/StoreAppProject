@@ -112,6 +112,7 @@ header nav li {
     margin: 30px 30px 30px 40px;
     padding: 0 0 0 0;
     color: black;
+    border-radius: 0%;
 }
 
 .sidebarSubBox {
@@ -120,6 +121,7 @@ header nav li {
     height: 175px;
     margin:  65px auto;
     /* border: 5px solid red; */
+    border-radius: 10%;
 }
 
 #sideSBone {
@@ -161,6 +163,7 @@ main {
     width: 23%;
     height: 275px;
     margin: 0px 0px 0px 0px;
+    border-radius: 10%;
     /* border: 5px solid red; */
 }
 
