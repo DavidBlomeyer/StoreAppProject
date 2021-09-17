@@ -1,0 +1,280 @@
+/* Common Elements */
+
+body {
+    font-family: 'Glory', sans-serif;
+}
+
+button {
+    font-family: helvetica;
+    color: #000000;
+    font-size: 14px;
+    text-shadow: 0px 0px 0px #FAFAFA;
+    box-shadow: 0px 0px 0px #FFD700;
+    padding: 5px 10px;
+    border-radius: 14px;
+    border: 3px groove #FFD700;
+    background: #FFFFFF;
+    margin: 10px 0 0 10px;
+}
+
+button:hover {
+    color: #FFFFFF;
+    background: #000000;
+}
+
+p {
+    margin: 0px 0px 0px 15px;
+    padding: 160px 0px 0px 0px;
+}
+
+h3 {
+    margin: 0px 0px 0px 15px;
+    padding: 10px 0px 0px 0px;
+}
+
+header {
+    background: #39150C url(img/Q.jpg) center 0px;
+    background-size: 100% 100%;
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(189,172,56,0.5); 
+    box-shadow: 0px 0px 5px 5px rgba(189,172,56,0.5);
+    color: white;
+}
+
+footer {
+    background: #39150C url(img/Q.jpg) center 0px;
+    background-size: 100% 100%;
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(189,172,56,0.5); 
+    box-shadow: 0px 0px 5px 5px rgba(189,172,56,0.5);
+    color: white;
+}
+
+/* Header */
+
+/* Header Positioning */
+header {
+    /* background-color: rgb(151, 181, 199); */
+    display:inline-flex;
+    width: 100%;
+    height: 75px;
+}
+
+header div {
+    /* border: solid red 5px; */
+    /* background-color: lavender; */
+    width: 35%;
+
+}
+
+header section {
+    width: 50%
+}
+
+header nav {
+    /* border: solid red 5px; */
+    /* background-color: tomato; */
+    width: 15%;
+}
+
+/* Header Items */
+
+header h1 {
+    height: 40px;
+    /* background-color: teal; */
+    text-align: center;
+    margin: 10px 10px 0px 10px;
+    padding: 10px 0px 5px 0px;
+}
+
+header nav ul {
+    /* background-color: teal; */
+    text-align: center;
+    margin: 30px 10px 10px 10px;
+    padding: 0px 0px 0px 0px;
+
+}
+
+header nav li {
+    display: inline-block;
+    margin: 0px 15px 0px 0px;
+}
+
+/* Sidebar */
+
+#sidebarBox {
+    background: #39150C url(img/X.jpg) center 0px;
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(189,172,56,0.5); 
+    box-shadow: 0px 0px 5px 5px rgba(189,172,56,0.5);
+    width: 250px;
+    height: 800px;
+    float: left;
+    position: relative;
+    /* border: 5px solid black; */
+    margin: 30px 30px 30px 40px;
+    padding: 0 0 0 0;
+    color: black;
+}
+
+.sidebarSubBox {
+    /* background-color: cornsilk; */
+    width: 175px;
+    height: 175px;
+    margin:  65px auto;
+    /* border: 5px solid red; */
+}
+
+#sideSBone {
+    background: #39150C url(img/L.jpg) center 0px;
+    background-size: 175px 175px;
+    -webkit-box-shadow: 0px 0px 15px 5px #555D50; 
+    box-shadow: 0px 0px 15px 5px #555D50;
+}
+
+#sideSBtwo {
+    background: #39150C url(img/H.jpg) center 0px;
+    background-size: 175px 175px;
+    -webkit-box-shadow: 0px 0px 15px 5px #555D50; 
+    box-shadow: 0px 0px 15px 5px #555D50;
+}
+
+#sideSBthree {
+    background: #39150C url(img/G.jpg) center 0px;
+    background-size: 175px 175px;
+    -webkit-box-shadow: 0px 0px 15px 5px #555D50; 
+    box-shadow: 0px 0px 15px 5px #555D50;
+}
+
+/* Main */
+
+main {
+    background: #39150C url(img/C.jpg) center 0px;
+    background-color: #cccccc;
+    height: 880px;
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(189,172,56,0.5); 
+    box-shadow: 0px 0px 5px 5px rgba(189,172,56,0.5);
+    color: white;
+
+}
+
+.concept {
+    background-color: cornsilk;
+    display: inline-block;
+    width: 23%;
+    height: 275px;
+    margin: 0px 0px 0px 0px;
+    /* border: 5px solid red; */
+}
+
+#concept1, #concept2, #concept3 {
+    margin-top: 30px;
+    color: white;
+}
+
+#concept4, #concept5, #concept6 {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+#concept1, #concept4 {
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+#concept2, #concept5 {
+    margin-left: 30px;
+    margin-right: 40px;
+}
+
+#concept3, #concept6 {
+    margin-left: ;
+    margin-right: ;
+}
+
+#concept1 {
+    background: #39150C url(img/B.jpg) center 0px;
+    background-size: 100% 100%;
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(189,172,56,0.5); 
+    box-shadow: 0px 0px 5px 5px rgba(189,172,56,0.5);
+}
+#concept2 {
+    background: #39150C url(img/S.jpg) center 0px;
+    background-size: 100% 100%;
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(189,172,56,0.5); 
+    box-shadow: 0px 0px 5px 5px rgba(189,172,56,0.5);
+}
+#concept3 {
+    background: #39150C url(img/O.jpg) center 0px;
+    background-size: 100% 100%;
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(189,172,56,0.5); 
+    box-shadow: 0px 0px 5px 5px rgba(189,172,56,0.5);
+}
+#concept4 {
+    background: #39150C url(img/J.jpg) center 0px;
+    background-size: 100% 100%;
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(189,172,56,0.5); 
+    box-shadow: 0px 0px 5px 5px rgba(189,172,56,0.5);
+}
+#concept5 {
+    background: #39150C url(img/E.jpg) center 0px;
+    background-size: 100% 100%;
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(189,172,56,0.5); 
+    box-shadow: 0px 0px 5px 5px rgba(189,172,56,0.5);
+}
+#concept6 {
+    background: #39150C url(img/Y.jpg) center 0px;
+    background-size: 100% 100%;
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(189,172,56,0.5); 
+    box-shadow: 0px 0px 5px 5px rgba(189,172,56,0.5);
+}
+
+
+#mystery {
+    width: 75%;
+    display: inline-flex;
+    /* background-color: rgb(202, 233, 233); */
+    margin: 40px 0 0 30px;
+    padding: 0 0 0 0;
+    /* border: 5px yellow solid; */
+    color: rgb(255, 255, 255)
+}
+
+/* Footer */
+
+/* Footer Positioning */
+
+footer {
+    background-color: rgb(151, 181, 199);
+    display: flex;
+    width: 100%;
+    height: 75px;
+}
+
+footer div {
+    width: 20%;
+    /* border: 5px solid red; */
+    padding: 25px 10px 10px 10px;
+}
+
+footer section {
+    width: 60%;
+}
+
+footer ul {
+    width: 20%;
+    /* border: 5px solid red; */
+    /* border: 1px black solid; */
+    padding: 10px 10px 10px 10px;
+    margin: 0px 0px 0px 0px;
+}
+
+/* Footer Items */
+
+footer ul li {
+    display: inline-block;
+    padding: 18px 20px 0 0;
+}
+
+footer div span {
+    /* border: 1px black solid; */
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
